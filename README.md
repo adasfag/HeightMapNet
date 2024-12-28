@@ -73,9 +73,9 @@ bash tools/dist_test_map.sh ${CONFIG} ${CEHCKPOINT} 1
 
 ### Results on NuScenes dataset
 
-| Method | $\mathrm{AP}_{divider}$ | $\mathrm{AP}_{boundary}$| $\mathrm{AP}_{ped-crossing}$ | $\mathrm{AP}$ | Config |  Checkpoint |
-| :---: |   :---:  |  :---:  | :---:      |:---:|:---: |:---:   | :---:      |
-| HeightMapNet | 62.8 | 60.4 | 54.3 | 59.1 | [Config](./projects/configs/heightmapnet.py) | [ckpt](https://1drv.ms/u/c/692c490b253a5349/EXv-25477lNFtpPMd06oOE4BLaljyJxPMjnnQOp8ANU2lg?e=aABvna)|
+| Method | Ap_divider | AP_boundary |AP_pedcrossing | mAP| Config | Download |
+| :---: | :---: |  :---: |  :---: |:---: | :---:|:---: |
+| HeightMapNet | 62.8 | 60.4 | 54.3 | 59.1 |./projects/configs/heightmapnet.py |[ckpt](https://1drv.ms/u/c/692c490b253a5349/EXv-25477lNFtpPMd06oOE4BLaljyJxPMjnnQOp8ANU2lg?e=aABvna)|
 
 ## Citation
 If you find our paper or codebase useful in your research, please cite our paper.
